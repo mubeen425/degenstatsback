@@ -54,7 +54,11 @@ router.put("/:wallet_address", async (req, res) => {
     console.log("Date: ", date.getMonth())
     console.log("checkUser.today_date: ", checkUser.today_date.getDate())
 
-    if(date.getMonth() != checkUser.updatedAt.getMonth()){
+    let weekly_profit = checkUser.weekly_profit;
+    let monthly_profit = checkUser.montnly_profit;
+    let todays_profit = 0;
+    if(date.getMonth() != checkUser.today_date.getMonth()){
+      monthly_profit = 0;
       await checkUser.update({
           monthly_profit: 0,
       });
@@ -63,13 +67,16 @@ router.put("/:wallet_address", async (req, res) => {
     
     if(date.getDate() != checkUser.today_date.getDate()){
       if((date.getDate() - checkUser.createdAt.getDate()) % 7 == 0){
+        weekly_profit = 0;
         await checkUser.update({
             weekly_profit: 0,
         });
       }
       let day_end_profit = checkUser.day1_profit;
-      let weekly_profit = day_end_profit + checkUser.weekly_profit;
-      let monthly_profit = day_end_profit + checkUser.montnly_profit;
+      if(checkUser.weekly_profit != 0)
+        weekly_profit = Number(day_end_profit) + Number(checkUser.weekly_profit);
+      if(checkUser.monthly_profit != 0)
+        monthly_profit = Number(day_end_profit) + Number(checkUser.montnly_profit);
 
       await checkUser.update({
           today_date: new Date(),
@@ -80,25 +87,23 @@ router.put("/:wallet_address", async (req, res) => {
       });
     }
     else{
-      let todays_profit =  Number(req.body.balance) - Number(checkUser.day_start_balance);
+      todays_profit =  Number(req.body.balance) - Number(checkUser.day_start_balance);
       
       
       if(todays_profit > 0 && todays_profit != Number(checkUser.day1_profit)){
         await checkUser.update({
           day1_profit: todays_profit,
         });
-
-        return  res.status(200).json({
-          todays_profit,
-          weekly_profit: Number(checkUser.weekly_profit) + Number(todays_profit),
-          monthly_profit: Number(checkUser.monthly_profit) + Number(todays_profit),
-         })
       }
        
     }
    
-
-    return res.send("updated");
+    return  res.status(200).json({
+      todays_profit,
+      weekly_profit: Number(checkUser.weekly_profit) + Number(todays_profit),
+      monthly_profit: Number(checkUser.monthly_profit) + Number(todays_profit),
+     })
+    // return res.send("updated");
   } catch (error) {
    return res.send({status:false,message:error.message})
   }
