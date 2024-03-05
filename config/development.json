@@ -1,0 +1,18 @@
+{
+  "en": "dev",
+  "DBCONFIG": {
+    "USERNAME": "root",
+    "DATABASE": "degenstats",
+    "HOST": "localhost",
+    "PORT": 3306
+  },
+  "INDBCONFIG": {
+    "USERNAME": "root",
+    "DATABASE": "degenstats",
+    "HOST": "localhost",
+    "PORT": 3306
+  },
+  "jwtPrivateKey": "privateKey",
+  "W_PRIVATE_KEY": "",
+  "G_Access_Token": "goldapi-dvw7tlcrv8u05-io"
+}

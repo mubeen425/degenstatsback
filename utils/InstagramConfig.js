@@ -1,0 +1,6 @@
+module.exports = {
+    Insta_appKey: "770875058121618",
+    Insta_appSecret: "af85f941fb03a1862008013d0c563172",
+  Insta_accessToken: "EAAK9G1YBa5IBO5fDirhHHWPXzUsquLYhkc2y893I7ZA5kNmHwKNXRiCyj0gFoR4PFmnOmEu7IMAzkNdeFbTMwvu6NlPO4FANCPKF8Q8rLunBusteJkXlmGXJwZA62HnUTywUXCTu5i45RK3hGwRuxZCyi9xkPZBZBIlj5trIZAarCfe3RqVJvDpijB89OoeWWJRnA1NvjOxc5JlbsODCWZCZATbBtQcESFcGv4ZAa5KmmqP7wX6wEO7c8WpnwGZB9p7ZBVuDRdYrCnh9qkZD",
+  Insta_accessSecret: "770875058121618|1ut9DQBEe6QfcqxzTdJ8yofKILk",
+};

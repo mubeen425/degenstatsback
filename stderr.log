@@ -1,0 +1,2038 @@
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processTimers (node:internal/timers:499:9)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processTimers (node:internal/timers:499:9)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processTimers (node:internal/timers:499:9)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32 {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processTimers (node:internal/timers:499:9)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processTimers (node:internal/timers:499:9)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processTimers (node:internal/timers:499:9)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processTimers (node:internal/timers:499:9)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102
+          throw new SequelizeErrors.ConnectionError(err);
+                ^
+
+ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at ConnectionManager.connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/sequelize/lib/sequelize.js:456:5) {
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (/home/bitxgold/nodevenv/api.bitx.gold/16/lib/node_modules/mysql2/lib/connection.js:202:17)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}

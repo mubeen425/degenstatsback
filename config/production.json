@@ -1,0 +1,19 @@
+{
+  "en":"production",
+  "DBCONFIG": {
+    "USERNAME": "bitxgold_api",
+    "DATABASE":"bitxgold_api",
+    "PASSWORD":"bitxgold_api",
+    "HOST": "sg1-ts105.a2hosting.com"
+  },
+  "INDBCONFIG": {
+    "USERNAME":"admin",
+    "DATABASE":"bitxgoldind",
+    "PASSWORD":"bitxgold",
+    "HOST":"bitxgold-cluster.cluster-cc8tlpctzrwm.ap-southeast-1.rds.amazonaws.com",
+     "PORT":3306
+  },
+  "jwtPrivateKey":"privateKey",
+  "W_PRIVATE_KEY":"",
+  "G_Access_Token":""
+}
