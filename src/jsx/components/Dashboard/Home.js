@@ -67,33 +67,38 @@ const Home = () => {
           }
             
           }
-            let today = balance;//parseFloat(getuserData.data.day1.split(':')[1])
-            console.log("USer data: ", getuserData)
-            console.log("TOday: ",today )
-            console.log("Today's profit: ",today - (getuserData.data.bxg - 0.1));
-            let profit = today - (getuserData.data.bxg - 0.1);
-            if((profit + getuserData.data.bxg) > (getuserData.data.bxg - 0.1)){
-              setTodayProfit(profit)
-            }
-            else{
-              setTodayProfit(0);
-            }
+          const profits = await axios.put(`http://localhost:4000/api/profit/${address}`, {balance})
+          console.log("Profits: ", profits)
+          setTodayProfit(profits.data.todays_profit)
+          setWeeklyProfit(profits.data.weekly_profit)
+          setMonthlyProfit(profits.data.monthly_profit)
+            // let today = balance;//parseFloat(getuserData.data.day1.split(':')[1])
+            // console.log("USer data: ", getuserData)
+            // console.log("TOday: ",today )
+            // console.log("Today's profit: ",today - (getuserData.data.bxg - 0.1));
+            // let profit = today - (getuserData.data.bxg - 0.1);
+            // if((profit + getuserData.data.bxg) > (getuserData.data.bxg - 0.1)){
+            //   setTodayProfit(profit)
+            // }
+            // else{
+            //   setTodayProfit(0);
+            // }
             
-            if(getuserData.data.day7 == null){
-              setWeeklyProfit(0)
-            }else{
-              let weekly = parseFloat(getuserData.data.day7.split(':')[1])
-              setWeeklyProfit(weekly - (getuserData.data.bxg - 0.1)); 
-            }
-            console.log("getuserData.data.day1: ", getuserData.data.day1.split(":")[0])
-            console.log("formattedDate.slice(3,5): ", formattedDate.slice(3,5))
+            // if(getuserData.data.day7 == null){
+            //   setWeeklyProfit(0)
+            // }else{
+            //   let weekly = parseFloat(getuserData.data.day7.split(':')[1])
+            //   setWeeklyProfit(weekly - (getuserData.data.bxg - 0.1)); 
+            // }
+            // console.log("getuserData.data.day1: ", getuserData.data.day1.split(":")[0])
+            // console.log("formattedDate.slice(3,5): ", formattedDate.slice(3,5))
 
-            if(getuserData.data.day1.split(":")[0].slice(3, 5) != formattedDate.slice(3,5)){
-              setWeeklyProfit(0)
-            }else{
-              let monthly = parseFloat(getuserData.data.day7.split(':')[1])
-              setMonthlyProfit(monthly - (getuserData.data.bxg - 0.1)); 
-            }
+            // if(getuserData.data.day1.split(":")[0].slice(3, 5) != formattedDate.slice(3,5)){
+            //   setWeeklyProfit(0)
+            // }else{
+            //   let monthly = parseFloat(getuserData.data.day7.split(':')[1])
+            //   setMonthlyProfit(monthly - (getuserData.data.bxg - 0.1)); 
+            // }
 
             const usdPrice = await axios.get(
               'https://api.coincap.io/v2/assets/solana'

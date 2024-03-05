@@ -139,11 +139,15 @@ function Login(props) {
         else{
           console.log(balance);
           const mesg = await axios.post("http://localhost:4000/api/profile/", {
-        wallet_address: dt.wallet_address,
-        email: "demo@gmail.com",
-        whatsapp: "123456",
-        
-      });
+            wallet_address: dt.wallet_address,
+            email: "demo@gmail.com",
+            whatsapp: "123456",
+            
+          });
+          const result = await axios.post("http://localhost:4000/api/profit/" + dt.wallet_address, {
+            balance,            
+          });
+          console.log("BSG_REWARD_HISTORY: ", result);
       console.log('here is a code ',mesg);
       localStorage.setItem('token', dt.wallet_address);
       const updateBalance = await axios.put(`http://localhost:4000/api/bxg/${mesg.data.id}`, { bxg:balance })
