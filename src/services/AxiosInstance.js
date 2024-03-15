@@ -6,7 +6,8 @@ import tokenSale from "../../src/contractAbis/TokenSale.json";
 import Web3 from 'web3'
 
 const axiosInstance = axios.create({
-  baseURL: `http://localhost:4000`,
+  baseURL: "https://cryptojugend-bd0c060f0a83.herokuapp.com"
+  // baseURL: `http://localhost:4000`,
   //baseURL: `https://ill-veil-colt.cyclic.app`,
 });
 
