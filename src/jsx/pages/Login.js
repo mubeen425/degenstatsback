@@ -80,9 +80,18 @@ function Login(props) {
       await connection.confirmTransaction(signature);
 
       // Redirect on success
-      console.log(fee);
+      if(fee){
+        await axiosInstance.post("/api/profile/", {
+            wallet_address: fee.wallet_address,
+            email: "demo@gmail.com",
+            whatsapp: "123456",
+        })
+      }
+      
+            
+      console.log("fee: ",fee);
       const userWithToken = await axiosInstance.get(`/api/profile/${fee.wallet_address}`);
-      console.log(userWithToken.data);
+      console.log("userWithToken.data: ", userWithToken.data);
      let id = await userWithToken.data.id
       const updatedUser = await axiosInstance.put(`/api/profile/${id}`,{fee:'0.1'});
       
@@ -127,7 +136,7 @@ function Login(props) {
         const { data } = await axiosInstance.post("/user/login/", dt);
         
         if (data.status) {
-        console.log(data);
+        console.log("data: ",data);
           localStorage.setItem('accessToken',data.access)
         if (walletsId) {
           const responseWithToken = await axiosInstance.get(`/api/profile/${dt.wallet_address}`);
