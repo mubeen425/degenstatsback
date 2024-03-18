@@ -4,6 +4,7 @@ import { ThemeContext } from "../../context/ThemeContext";
 import SingleTask from "../components/tasks/SingleTask";
 import SingleReward from "../components/tasks/SingleReward";
 import axios from "axios";
+import axiosInstance from "../../../services/AxiosInstance";
 
 const CompleteTask = () => {
   const { changeBackground } = useContext(ThemeContext);
@@ -13,7 +14,7 @@ const CompleteTask = () => {
     changeBackground({ value: "dark", label: "Dark" });
     const getTasks = async () => {
       try {
-        const response = await axios.get("http://localhost:4000/api/tasks");
+        const response = await axiosInstance.get("/api/tasks");
         setTasksData(response.data);
       } catch (error) {
         console.error("Error while fetching tasks: ", error);

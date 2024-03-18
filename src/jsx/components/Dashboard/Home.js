@@ -44,7 +44,7 @@ const Home = () => {
 
         // Update state with fetched balance
         setbxgavailable(balance);
-            const getuserData = await axios.get(`http://localhost:4000/api/bxg/${address}`)
+            const getuserData = await axiosInstance.get(`/api/bxg/${address}`)
             const currentDate = new Date();
             const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
             const formattedDate = currentDate.toLocaleDateString('en-GB', options);
@@ -52,22 +52,22 @@ const Home = () => {
            const {day1,day7}  = getuserData.data
 
            if (day1 === null && day7 === null) {
-            const updateBalance = await axios.put(`http://localhost:4000/api/bxg/${getuserData.data.id}`, { day1: `${formattedDate}:${balance}` })
+            const updateBalance = await axiosInstance.put(`/api/bxg/${getuserData.data.id}`, { day1: `${formattedDate}:${balance}` })
             console.log("updateBalance: ",updateBalance);
           } else {
            let apiDate =  day1.split(":")[0] 
           if(apiDate == formattedDate ){
-            const updateBalance = await axios.put(`http://localhost:4000/api/bxg/${getuserData.data.id}`, { day1: `${formattedDate}:${balance}` })
+            const updateBalance = await axiosInstance.put(`/api/bxg/${getuserData.data.id}`, { day1: `${formattedDate}:${balance}` })
             console.log(updateBalance.data);
           } else{
 
-            const updateBalance = await axios.put(`http://localhost:4000/api/bxg/${getuserData.data.id}`, { day7: `${formattedDate}:${balance}` })
+            const updateBalance = await axiosInstance.put(`/api/bxg/${getuserData.data.id}`, { day7: `${formattedDate}:${balance}` })
             console.log(updateBalance.data);
 
           }
             
           }
-          const profits = await axios.put(`http://localhost:4000/api/profit/${address}`, {balance})
+          const profits = await axiosInstance.put(`/api/profit/${address}`, {balance})
           console.log("Profits: ", profits)
           setTodayProfit(profits.data.todays_profit)
           setWeeklyProfit(profits.data.weekly_profit)
